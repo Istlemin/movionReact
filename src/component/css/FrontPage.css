@@ -1,0 +1,109 @@
+#frontpage {
+    overflow: hidden;
+    width: 800px;
+    margin: 0px;
+    margin-left: calc(50% - 400px);
+}
+
+#frontpage .header {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.beta {
+    font-size: 34px;
+    color: rgb(94, 130, 157);
+    position: absolute;
+    top: -20px;
+    left: 431px;
+    -webkit-transform: rotate(23deg);
+            transform: rotate(23deg);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+#frontpage .subtitle {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+#frontpage .searchfield {
+    width: calc(100% - 50px);
+    display: inline-block;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#frontpage .search {
+    width: 50px;
+    height: 47px;
+    position: relative;
+    top: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#frontpage .services-subtitle {
+    margin: 0 15px;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    font-size: 15px;
+    text-align: justify;
+    text-shadow: 2px 2px 6px #000;
+}
+
+#frontpage .description {
+    margin: 0px 15px;
+    font-weight: 100;
+}
+
+#frontpage .services-table {
+    width: 100%;
+}
+
+#frontpage .services-table .button2 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    width: 80%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#frontpage .services-table .button2 p {
+    display: inline;
+    padding-left: 5px;
+}
+
+#frontpage .check-all,
+#frontpage .un-check-all {
+    width: calc(50% - 2.5px);
+}
+
+.searchfield {
+    position: relative;
+    height: 45px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
+    border: none;
+}
+
+.searchfield-input {
+    width: calc(100% - 20px);
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-family: "open sans";
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}

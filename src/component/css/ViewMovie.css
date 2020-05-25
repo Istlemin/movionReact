@@ -1,0 +1,339 @@
+#view-movie-page .small-header {
+    border:none;
+    display: inline-block;
+    position: absolute;
+    padding: 0px;
+    left: 60px;
+}
+
+#view-movie-page .title {
+    text-align: left;
+    padding-left: 230px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    padding-right: 40px;
+}
+
+#view-movie-page .poster {
+    width: 200px;
+    margin-left: 10px;
+}
+
+#view-movie-page .movie-details {
+    width: 35%;
+    /* position: absolute; */
+    /* right: 0px; */
+    float: right;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    margin-left: 15px;
+}
+
+#view-movie-page .details-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+
+#view-movie-page .details-left {
+    width: calc(50% - 31px);
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+}
+
+#view-movie-page .details-bottom {
+    padding: 0px 15px;
+}
+
+#view-movie-page .details-right {
+    width: calc(50% - 31px);
+    float: right;
+    padding: 0px 15px;
+}
+
+#view-movie-page .movie-details .stars {
+    position: relative;
+    top: 3px;
+}
+
+#view-movie-page .description {
+    font-size: 16px;
+}
+
+#view-movie-page .left-column {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#view-movie-page .left-column p {
+    margin-left: 10px;
+}
+
+#view-movie-page .movie-type {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+#view-movie-page .center-column{
+    /* width: calc(65% - 220px); */
+    margin-top: 17px;
+    margin-left: 230px;
+}
+
+#view-movie-page .services {
+    /* width: calc(65% - 250px); */
+    /* margin-left: 195px; */
+    clear: both;
+    display: inline-block;
+}
+
+#view-movie-page .button3 {
+    display: inline-block;
+    background: rgba(200, 200, 200, 0.25);
+    font-weight: 100;
+    font-size: 16px;
+    padding: 3px 11px;
+    margin: 2px 7px;
+    line-height: 25px;
+    white-space: nowrap;
+}
+
+#view-movie-page .button3:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#view-movie-page .button3:active {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#view-movie-page .services .subtitle {
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+#view-movie-page .subtitle {
+    margin-left: 0px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#view-movie-page .serie-info-title {
+    margin-top: 30px;
+}
+
+.season-title {
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    margin: 0px 0px;
+    display: inline-block;
+}
+
+.season-title>span {
+    transition: background 400ms;
+    padding: 3px;
+    border-radius: 10px;
+    padding: 3px 11px;
+    margin: 2px 7px;
+    padding-right: 35px;
+    position: relative;
+    background: rgba(200, 200, 200, 0.25);
+    white-space: nowrap;
+}
+
+.season-title>span:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.season-title .show-more {
+    font-size: 20px;
+    top: 3px;
+    right: 8px;
+    text-shadow: none;
+}
+
+.serie-info>div:not(.programInfo) {
+    margin: 10px 0px;
+}
+
+.serie-info .is-available-on {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px;
+    margin-left: 16px;
+    left: 158px;
+    width: calc(100% - 200px);
+    position: absolute;
+    left: 190px;
+    white-space: nowrap;
+}
+
+.serie-info .is-available-on div {
+    display: inline-block;
+}
+
+
+/*.serie-info .is-available-on span {
+    font-weight: 600;
+}*/
+
+.season-title a {
+    margin-left: 20px;
+}
+
+.season-info {
+    list-style: none;
+    overflow: hidden;
+    transition: height 400ms;
+    padding: 0px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.season-info .table {
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 199px;
+}
+
+.serie-info {
+    position: relative;
+    /* margin-left: 178px; */
+    /* width: calc(100% - 200px); */
+}
+
+.serie-info .button3 {
+    font-size: 16px;
+    padding: 3px 11px;
+    margin: 2px 7px;
+}
+
+.season-info .episode-image {
+    max-height: 40px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    display: inline-block;
+    transition: background 400ms;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.season-info .episode-image:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.season-info .episode-title {
+    margin: 0px;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.season-info .episode-links {
+    display: inline-block;
+}
+
+.season-info .episode-link {
+    text-align: center;
+}
+
+.season-info .episode-link span {
+    padding: 2px 7px;
+}
+
+.season-info .episode-link:nth-child(2) {}
+
+.programInfo {
+    margin: 0px;
+}
+
+#service-window a.table-row {
+    transition: background 400ms;
+    background: rgba(200, 200, 200, 0.25);
+}
+
+#service-window .title {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+#service-window .table {
+    width: calc(100% - 40px);
+    padding: 0px 20px;
+    margin-bottom: 30px;
+    border-spacing: 0px 5px;
+}
+
+#service-window .table-row:not(:first-child) {
+    transition: background 400ms;
+}
+
+#service-window .table-row:not(:first-child):hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#service-window .table-row:first-child {
+    font-weight: 500;
+}
+
+#service-window .table-cell {
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+
+#service-window .table-cell:first-child {
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 15px;
+}
+
+#service-window .table-cell:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#service-window .service {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+#service-window .service-details {
+    text-align: center;
+    margin: 0px;
+}
+
+#service-window .service-details div {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+#service-window .service-details .weight600 {
+    display: inline;
+}
+
+#service-window .description {
+    margin: 20px;
+}
+
+#view-movie-page .add-notification-title {
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+#view-movie-page .add-notification-container {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+#add-serie-notification-window .button3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}

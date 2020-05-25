@@ -1,0 +1,51 @@
+.dropdown-menu {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+
+.dropdown-menu .selected-option {
+    padding: 5px;
+    background: rgba(36, 68, 95, 0.95);
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-menu.open .selected-option {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dropdown-menu .selected-option .show-more {
+    font-size: 20px;
+    top: 3px;
+    right: 5px;
+    position: absolute;
+    transition: transform 400ms;
+}
+
+.dropdown-menu .options-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    transition: max-height 400ms;
+    background: rgba(36, 68, 95, 0.95);
+    padding: 0px 5px;
+    z-index: 1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown-menu .option {
+    padding: 5px 0px;
+    cursor: pointer;
+    transition: background 400ms;
+}
+
+.dropdown-menu .option:hover {
+    background: rgba(70, 102, 129, 0.95);
+}
+
+.dropdown-menu .option:active {
+    background: rgba(90, 122, 149, 0.95);
+}
